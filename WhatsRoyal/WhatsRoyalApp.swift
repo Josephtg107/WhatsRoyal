@@ -11,7 +11,11 @@ import SwiftUI
 struct WhatsRoyalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MessageListView()
         }
     }
 }
+
+#Preview(body: {
+    MessageListView()
+})

@@ -14,6 +14,12 @@
 		8C24DB0B2C08C2CB00A6B836 /* WhatsRoyalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB0A2C08C2CB00A6B836 /* WhatsRoyalTests.swift */; };
 		8C24DB152C08C2CB00A6B836 /* WhatsRoyalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB142C08C2CB00A6B836 /* WhatsRoyalUITests.swift */; };
 		8C24DB172C08C2CB00A6B836 /* WhatsRoyalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB162C08C2CB00A6B836 /* WhatsRoyalUITestsLaunchTests.swift */; };
+		8C24DB242C08D47500A6B836 /* WhatsAppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB232C08D47500A6B836 /* WhatsAppService.swift */; };
+		8C24DB262C08D4D600A6B836 /* ComposeMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB252C08D4D600A6B836 /* ComposeMessageViewModel.swift */; };
+		8C24DB282C08D51900A6B836 /* ComposeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB272C08D51900A6B836 /* ComposeMessageView.swift */; };
+		8C24DB2A2C08D56F00A6B836 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB292C08D56F00A6B836 /* MessageListView.swift */; };
+		8C24DB2C2C08D7B100A6B836 /* IdentifiableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB2B2C08D7B100A6B836 /* IdentifiableError.swift */; };
+		8C24DB312C08F22300A6B836 /* MessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB302C08F22300A6B836 /* MessageListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		8C24DB102C08C2CB00A6B836 /* WhatsRoyalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsRoyalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C24DB142C08C2CB00A6B836 /* WhatsRoyalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsRoyalUITests.swift; sourceTree = "<group>"; };
 		8C24DB162C08C2CB00A6B836 /* WhatsRoyalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsRoyalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C24DB232C08D47500A6B836 /* WhatsAppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppService.swift; sourceTree = "<group>"; };
+		8C24DB252C08D4D600A6B836 /* ComposeMessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeMessageViewModel.swift; sourceTree = "<group>"; };
+		8C24DB272C08D51900A6B836 /* ComposeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeMessageView.swift; sourceTree = "<group>"; };
+		8C24DB292C08D56F00A6B836 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		8C24DB2B2C08D7B100A6B836 /* IdentifiableError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableError.swift; sourceTree = "<group>"; };
+		8C24DB302C08F22300A6B836 /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				8C24DAF92C08C2CA00A6B836 /* WhatsRoyalApp.swift */,
+				8C24DB292C08D56F00A6B836 /* MessageListView.swift */,
+				8C24DB272C08D51900A6B836 /* ComposeMessageView.swift */,
 				8C24DAFB2C08C2CA00A6B836 /* ContentView.swift */,
+				8C24DB232C08D47500A6B836 /* WhatsAppService.swift */,
+				8C24DB252C08D4D600A6B836 /* ComposeMessageViewModel.swift */,
+				8C24DB2B2C08D7B100A6B836 /* IdentifiableError.swift */,
+				8C24DB2D2C08F1D500A6B836 /* IncomingMessages */,
 				8C24DAFD2C08C2CB00A6B836 /* Assets.xcassets */,
 				8C24DAFF2C08C2CB00A6B836 /* Preview Content */,
 			);
@@ -125,6 +143,14 @@
 				8C24DB162C08C2CB00A6B836 /* WhatsRoyalUITestsLaunchTests.swift */,
 			);
 			path = WhatsRoyalUITests;
+			sourceTree = "<group>";
+		};
+		8C24DB2D2C08F1D500A6B836 /* IncomingMessages */ = {
+			isa = PBXGroup;
+			children = (
+				8C24DB302C08F22300A6B836 /* MessageListViewModel.swift */,
+			);
+			path = IncomingMessages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C24DB282C08D51900A6B836 /* ComposeMessageView.swift in Sources */,
+				8C24DB242C08D47500A6B836 /* WhatsAppService.swift in Sources */,
+				8C24DB312C08F22300A6B836 /* MessageListViewModel.swift in Sources */,
+				8C24DB2C2C08D7B100A6B836 /* IdentifiableError.swift in Sources */,
 				8C24DAFC2C08C2CA00A6B836 /* ContentView.swift in Sources */,
 				8C24DAFA2C08C2CA00A6B836 /* WhatsRoyalApp.swift in Sources */,
+				8C24DB2A2C08D56F00A6B836 /* MessageListView.swift in Sources */,
+				8C24DB262C08D4D600A6B836 /* ComposeMessageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
