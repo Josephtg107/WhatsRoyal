@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C24DAFA2C08C2CA00A6B836 /* WhatsRoyalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DAF92C08C2CA00A6B836 /* WhatsRoyalApp.swift */; };
+		8C24DAFC2C08C2CA00A6B836 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DAFB2C08C2CA00A6B836 /* ContentView.swift */; };
+		8C24DAFE2C08C2CB00A6B836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C24DAFD2C08C2CB00A6B836 /* Assets.xcassets */; };
+		8C24DB012C08C2CB00A6B836 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C24DB002C08C2CB00A6B836 /* Preview Assets.xcassets */; };
+		8C24DB0B2C08C2CB00A6B836 /* WhatsRoyalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB0A2C08C2CB00A6B836 /* WhatsRoyalTests.swift */; };
+		8C24DB152C08C2CB00A6B836 /* WhatsRoyalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB142C08C2CB00A6B836 /* WhatsRoyalUITests.swift */; };
+		8C24DB172C08C2CB00A6B836 /* WhatsRoyalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24DB162C08C2CB00A6B836 /* WhatsRoyalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C24DB072C08C2CB00A6B836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C24DAEE2C08C2CA00A6B836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C24DAF52C08C2CA00A6B836;
+			remoteInfo = WhatsRoyal;
+		};
+		8C24DB112C08C2CB00A6B836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C24DAEE2C08C2CA00A6B836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C24DAF52C08C2CA00A6B836;
+			remoteInfo = WhatsRoyal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C24DAF62C08C2CA00A6B836 /* WhatsRoyal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsRoyal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C24DAF92C08C2CA00A6B836 /* WhatsRoyalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsRoyalApp.swift; sourceTree = "<group>"; };
+		8C24DAFB2C08C2CA00A6B836 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C24DAFD2C08C2CB00A6B836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C24DB002C08C2CB00A6B836 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C24DB062C08C2CB00A6B836 /* WhatsRoyalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsRoyalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C24DB0A2C08C2CB00A6B836 /* WhatsRoyalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsRoyalTests.swift; sourceTree = "<group>"; };
+		8C24DB102C08C2CB00A6B836 /* WhatsRoyalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsRoyalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C24DB142C08C2CB00A6B836 /* WhatsRoyalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsRoyalUITests.swift; sourceTree = "<group>"; };
+		8C24DB162C08C2CB00A6B836 /* WhatsRoyalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsRoyalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C24DAF32C08C2CA00A6B836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C24DB032C08C2CB00A6B836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C24DB0D2C08C2CB00A6B836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C24DAED2C08C2CA00A6B836 = {
+			isa = PBXGroup;
+			children = (
+				8C24DAF82C08C2CA00A6B836 /* WhatsRoyal */,
+				8C24DB092C08C2CB00A6B836 /* WhatsRoyalTests */,
+				8C24DB132C08C2CB00A6B836 /* WhatsRoyalUITests */,
+				8C24DAF72C08C2CA00A6B836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C24DAF72C08C2CA00A6B836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C24DAF62C08C2CA00A6B836 /* WhatsRoyal.app */,
+				8C24DB062C08C2CB00A6B836 /* WhatsRoyalTests.xctest */,
+				8C24DB102C08C2CB00A6B836 /* WhatsRoyalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C24DAF82C08C2CA00A6B836 /* WhatsRoyal */ = {
+			isa = PBXGroup;
+			children = (
+				8C24DAF92C08C2CA00A6B836 /* WhatsRoyalApp.swift */,
+				8C24DAFB2C08C2CA00A6B836 /* ContentView.swift */,
+				8C24DAFD2C08C2CB00A6B836 /* Assets.xcassets */,
+				8C24DAFF2C08C2CB00A6B836 /* Preview Content */,
+			);
+			path = WhatsRoyal;
+			sourceTree = "<group>";
+		};
+		8C24DAFF2C08C2CB00A6B836 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C24DB002C08C2CB00A6B836 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C24DB092C08C2CB00A6B836 /* WhatsRoyalTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C24DB0A2C08C2CB00A6B836 /* WhatsRoyalTests.swift */,
+			);
+			path = WhatsRoyalTests;
+			sourceTree = "<group>";
+		};
+		8C24DB132C08C2CB00A6B836 /* WhatsRoyalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C24DB142C08C2CB00A6B836 /* WhatsRoyalUITests.swift */,
+				8C24DB162C08C2CB00A6B836 /* WhatsRoyalUITestsLaunchTests.swift */,
+			);
+			path = WhatsRoyalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C24DAF52C08C2CA00A6B836 /* WhatsRoyal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C24DB1A2C08C2CB00A6B836 /* Build configuration list for PBXNativeTarget "WhatsRoyal" */;
+			buildPhases = (
+				8C24DAF22C08C2CA00A6B836 /* Sources */,
+				8C24DAF32C08C2CA00A6B836 /* Frameworks */,
+				8C24DAF42C08C2CA00A6B836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsRoyal;
+			productName = WhatsRoyal;
+			productReference = 8C24DAF62C08C2CA00A6B836 /* WhatsRoyal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C24DB052C08C2CB00A6B836 /* WhatsRoyalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C24DB1D2C08C2CB00A6B836 /* Build configuration list for PBXNativeTarget "WhatsRoyalTests" */;
+			buildPhases = (
+				8C24DB022C08C2CB00A6B836 /* Sources */,
+				8C24DB032C08C2CB00A6B836 /* Frameworks */,
+				8C24DB042C08C2CB00A6B836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C24DB082C08C2CB00A6B836 /* PBXTargetDependency */,
+			);
+			name = WhatsRoyalTests;
+			productName = WhatsRoyalTests;
+			productReference = 8C24DB062C08C2CB00A6B836 /* WhatsRoyalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C24DB0F2C08C2CB00A6B836 /* WhatsRoyalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C24DB202C08C2CB00A6B836 /* Build configuration list for PBXNativeTarget "WhatsRoyalUITests" */;
+			buildPhases = (
+				8C24DB0C2C08C2CB00A6B836 /* Sources */,
+				8C24DB0D2C08C2CB00A6B836 /* Frameworks */,
+				8C24DB0E2C08C2CB00A6B836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C24DB122C08C2CB00A6B836 /* PBXTargetDependency */,
+			);
+			name = WhatsRoyalUITests;
+			productName = WhatsRoyalUITests;
+			productReference = 8C24DB102C08C2CB00A6B836 /* WhatsRoyalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C24DAEE2C08C2CA00A6B836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8C24DAF52C08C2CA00A6B836 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8C24DB052C08C2CB00A6B836 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8C24DAF52C08C2CA00A6B836;
+					};
+					8C24DB0F2C08C2CB00A6B836 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8C24DAF52C08C2CA00A6B836;
+					};
+				};
+			};
+			buildConfigurationList = 8C24DAF12C08C2CA00A6B836 /* Build configuration list for PBXProject "WhatsRoyal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C24DAED2C08C2CA00A6B836;
+			productRefGroup = 8C24DAF72C08C2CA00A6B836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C24DAF52C08C2CA00A6B836 /* WhatsRoyal */,
+				8C24DB052C08C2CB00A6B836 /* WhatsRoyalTests */,
+				8C24DB0F2C08C2CB00A6B836 /* WhatsRoyalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C24DAF42C08C2CA00A6B836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C24DB012C08C2CB00A6B836 /* Preview Assets.xcassets in Resources */,
+				8C24DAFE2C08C2CB00A6B836 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C24DB042C08C2CB00A6B836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C24DB0E2C08C2CB00A6B836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C24DAF22C08C2CA00A6B836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C24DAFC2C08C2CA00A6B836 /* ContentView.swift in Sources */,
+				8C24DAFA2C08C2CA00A6B836 /* WhatsRoyalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C24DB022C08C2CB00A6B836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C24DB0B2C08C2CB00A6B836 /* WhatsRoyalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C24DB0C2C08C2CB00A6B836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C24DB172C08C2CB00A6B836 /* WhatsRoyalUITestsLaunchTests.swift in Sources */,
+				8C24DB152C08C2CB00A6B836 /* WhatsRoyalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C24DB082C08C2CB00A6B836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C24DAF52C08C2CA00A6B836 /* WhatsRoyal */;
+			targetProxy = 8C24DB072C08C2CB00A6B836 /* PBXContainerItemProxy */;
+		};
+		8C24DB122C08C2CB00A6B836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C24DAF52C08C2CA00A6B836 /* WhatsRoyal */;
+			targetProxy = 8C24DB112C08C2CB00A6B836 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C24DB182C08C2CB00A6B836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C24DB192C08C2CB00A6B836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C24DB1B2C08C2CB00A6B836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsRoyal/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C32G7LR87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EDL.WhatsRoyal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C24DB1C2C08C2CB00A6B836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsRoyal/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C32G7LR87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EDL.WhatsRoyal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C24DB1E2C08C2CB00A6B836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C32G7LR87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EDL.WhatsRoyalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsRoyal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsRoyal";
+			};
+			name = Debug;
+		};
+		8C24DB1F2C08C2CB00A6B836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C32G7LR87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EDL.WhatsRoyalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsRoyal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsRoyal";
+			};
+			name = Release;
+		};
+		8C24DB212C08C2CB00A6B836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C32G7LR87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EDL.WhatsRoyalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsRoyal;
+			};
+			name = Debug;
+		};
+		8C24DB222C08C2CB00A6B836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C32G7LR87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EDL.WhatsRoyalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsRoyal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C24DAF12C08C2CA00A6B836 /* Build configuration list for PBXProject "WhatsRoyal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C24DB182C08C2CB00A6B836 /* Debug */,
+				8C24DB192C08C2CB00A6B836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C24DB1A2C08C2CB00A6B836 /* Build configuration list for PBXNativeTarget "WhatsRoyal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C24DB1B2C08C2CB00A6B836 /* Debug */,
+				8C24DB1C2C08C2CB00A6B836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C24DB1D2C08C2CB00A6B836 /* Build configuration list for PBXNativeTarget "WhatsRoyalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C24DB1E2C08C2CB00A6B836 /* Debug */,
+				8C24DB1F2C08C2CB00A6B836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C24DB202C08C2CB00A6B836 /* Build configuration list for PBXNativeTarget "WhatsRoyalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C24DB212C08C2CB00A6B836 /* Debug */,
+				8C24DB222C08C2CB00A6B836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C24DAEE2C08C2CA00A6B836 /* Project object */;
+}
